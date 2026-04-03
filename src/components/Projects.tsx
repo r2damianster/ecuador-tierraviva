@@ -26,7 +26,7 @@ export default function Projects() {
       desc: "Large-scale module funded by the European Union and effectively implemented.",
       impact: ["Fully operational solid waste management system", "Collection infrastructure and equipment", "45,000 people benefited at the municipal level"],
       status: "Executed",
-      img: "/images/intro-organic-farm.jpg",
+      img: "/Residuos-solidos.jpeg",
       statusColor: "hsl(var(--color-text-muted))"
     },
     {
@@ -36,6 +36,15 @@ export default function Projects() {
       impact: ["Income generation for local communities", "Long-term sustainable operations", "Direct economic support"],
       status: "Executed",
       img: "/images/intro-scientist-studies-rainforest.jpg",
+      statusColor: "hsl(var(--color-text-muted))"
+    },
+    {
+      title: "2016 Earthquake Relief – Manabí",
+      challenge: "Emergency response and shelter for the devastating 2016 Manabí earthquake.",
+      desc: "Following the deadly April 2016 earthquake with its epicenter between Pedernales and Cojimíes, we coordinated to provide immediate relief.",
+      impact: ["Donation of ~120 temporary shelters", "Support from Kubiec and private donors", "Emergency assistance in Manabí"],
+      status: "Executed",
+      img: "/Terremoto.jpeg",
       statusColor: "hsl(var(--color-text-muted))"
     }
   ];

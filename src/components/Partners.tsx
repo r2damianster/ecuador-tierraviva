@@ -5,7 +5,8 @@ export default function Partners() {
     { name: "European Union", desc: "Solid waste recycling system benefiting 45,000 people (~USD 1,000,000 project)", logo: "/images/partners-girandula.jpg" }, // Reuse empty/old logos creatively or just text.
     { name: "Change for Children", desc: "Community eco-lodge (~USD 100,000)", logo: "/images/partners-ventureco.png" },
     { name: "Engineers Without Borders (Portland)", desc: "Water projects", logo: "/images/partners-bellavista.png" },
-    { name: "The Book Bus & The Bissie Books (UK)", desc: "Literacy programs across Ecuador and Galápagos", logo: "/images/partners-bookbus.png" }
+    { name: "The Book Bus & The Bissie Books (UK)", desc: "Literacy programs across Ecuador and Galápagos", logo: "/images/partners-bookbus.png" },
+    { name: "LATA Foundation", desc: "Sustainability and community development", logo: "/LATA-Foundation.png" }
   ];
 
   return (

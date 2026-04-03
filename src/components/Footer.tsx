@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaXTwitter, FaInstagram, FaFacebookF, FaTiktok } from 'react-icons/fa6';
 
 export default function Footer() {
   return (
@@ -16,6 +17,12 @@ export default function Footer() {
           <p>Phone: +593 988 500 314</p>
           <p>Email: info@ecuador-tierraviva.org</p>
           <p>Location: Vicente Ramon Roca E8-18 y 6 de diciembre. 4B</p>
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end', marginTop: '1rem' }}>
+            <a href="https://x.com/ETV_foundation" target="_blank" rel="noreferrer" style={{ color: 'hsl(var(--color-text-main))', fontSize: '1.2rem' }} aria-label="X (Twitter)"><FaXTwitter /></a>
+            <a href="https://www.instagram.com/ecuador_tierraviva/" target="_blank" rel="noreferrer" style={{ color: 'hsl(var(--color-text-main))', fontSize: '1.2rem' }} aria-label="Instagram"><FaInstagram /></a>
+            <a href="https://www.facebook.com/ecuadortierravivaorg/" target="_blank" rel="noreferrer" style={{ color: 'hsl(var(--color-text-main))', fontSize: '1.2rem' }} aria-label="Facebook"><FaFacebookF /></a>
+            <a href="http://tiktok.com/@ecuadortierraviva" target="_blank" rel="noreferrer" style={{ color: 'hsl(var(--color-text-main))', fontSize: '1.2rem' }} aria-label="TikTok"><FaTiktok /></a>
+          </div>
         </div>
       </div>
       <div>
