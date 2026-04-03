@@ -17,7 +17,7 @@ export default function Projects() {
       desc: "A long-term literacy initiative implemented across Ecuador and the Galápagos, funded by The Bissie Books (UK).",
       impact: ["+10,000 children reached", "Multi-province implementation", "Years of sustained literacy programming"],
       status: "Active",
-      img: "/images/intro-casa-buho.jpg",
+      img: "/images/litercity1.jpg",
       statusColor: "hsl(var(--color-primary))"
     },
     {
@@ -26,7 +26,7 @@ export default function Projects() {
       desc: "Large-scale module funded by the European Union and effectively implemented.",
       impact: ["Fully operational solid waste management system", "Collection infrastructure and equipment", "45,000 people benefited at the municipal level"],
       status: "Executed",
-      img: "/Residuos-solidos.jpeg",
+      img: "/images/planta_residuos.jpeg",
       statusColor: "hsl(var(--color-text-muted))"
     },
     {
@@ -45,6 +45,15 @@ export default function Projects() {
       impact: ["Donation of ~120 temporary shelters", "Support from Kubiec and private donors", "Emergency assistance in Manabí"],
       status: "Executed",
       img: "/Terremoto.jpeg",
+      statusColor: "hsl(var(--color-text-muted))"
+    },
+    {
+      title: "Water Supply – Esmeraldas",
+      challenge: "Access to clean and safe water infrastructure.",
+      desc: "Implementation of a water supply system in Esmeraldas in partnership with Engineers Without Borders.",
+      impact: ["Improved access to clean water", "Direct community health benefits", "Sustainable infrastructure execution"],
+      status: "Executed",
+      img: "/images/water.jpg",
       statusColor: "hsl(var(--color-text-muted))"
     }
   ];
